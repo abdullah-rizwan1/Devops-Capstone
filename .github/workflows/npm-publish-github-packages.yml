@@ -29,7 +29,7 @@ jobs:
           npm install react-router-dom
       - name: Start json Server
         run: |
-          json-server --watch ./data/db.json --port 8000 &
+          json-server --watch ~/fontend/data/db.json --port 8000 &
       - name: Build React app
         run: |
           npm run build
