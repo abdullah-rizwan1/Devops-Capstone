@@ -36,7 +36,7 @@ jobs:
           cd frontend
           pwd
           ls
-          npm run build
+          npm start
 
       
   #     - run: npm ci
