@@ -32,7 +32,7 @@ jobs:
           json-server --watch ~/fontend/data/db.json --port 8000 &
       - name: Build React app
         run: |
-          npm run build
+          cd ~/frontend && npm run build
 
       
   #     - run: npm ci
